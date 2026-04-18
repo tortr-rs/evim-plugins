@@ -34,6 +34,14 @@ Plugins are auto-loaded when EVim starts. Manage with `:PluginList`, `:PluginEna
 | **timestamp** | Insert current date/time at cursor | `:timestamp`, `:ts`, `:date` |
 | **lorem** | Insert lorem ipsum placeholder text | `:lorem [count]` |
 | **line_sorter** | Sort or deduplicate lines | `:sortlines [-r]`, `:uniqlines` |
+| **todo_highlight** | List TODO/FIXME/HACK/NOTE comments | `:todos` |
+| **duplicate_line** | Duplicate current line | `:dup [count]` |
+| **session** | Save and restore editing sessions | `:session save\|load\|list <name>` |
+| **color_preview** | Find and list hex color codes | `:colors` |
+| **snippets** | Code snippet expansion | `:snip <name>`, `:sniplist`, `:snipadd`, `:snipdel` |
+| **bookmarks** | Named bookmarks across files | `:bm add\|go\|list\|del <name>` |
+| **calculator** | Inline math calculator | `:calc <expression>` |
+| **file_template** | Apply file templates | `:template <python\|c\|html\|sh\|makefile>` |
 
 ## Writing Your Own Plugin
 
